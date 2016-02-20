@@ -17,25 +17,32 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-
             new FOS\UserBundle\FOSUserBundle(),
-
             new Sonata\CoreBundle\SonataCoreBundle(),
             new Sonata\BlockBundle\SonataBlockBundle(),
-            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
-            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
-            new Sonata\AdminBundle\SonataAdminBundle(),
-            new Application\UserBundle\ApplicationUserBundle(),
-            new Application\Sonata\AdminBundle\ApplicationSonataAdminBundle(),
             new Sonata\IntlBundle\SonataIntlBundle(),
             new Sonata\MediaBundle\SonataMediaBundle(),
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+            new Sonata\AdminBundle\SonataAdminBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+
+            new Application\UserBundle\ApplicationUserBundle(),
+            new Application\Sonata\AdminBundle\ApplicationSonataAdminBundle(),
             new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
 
+            new Grossum\ContactBundle\GrossumContactBundle(),
+            new Grossum\CoreBundle\GrossumCoreBundle(),
+            new Grossum\CustomEntityManagerBundle\GrossumCustomEntityManagerBundle(),
+            new Grossum\ExtendedFormTypeBundle\GrossumExtendedFormTypeBundle(),
+            new Grossum\FaqBundle\GrossumFaqBundle(),
+            new Grossum\FeedbackBundle\GrossumFeedbackBundle(),
+            new Grossum\NewsBundle\GrossumNewsBundle(),
+            new Grossum\StaticPageBundle\GrossumStaticPageBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
-            $bundles[] = new AppBundle\AppBundle();
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();

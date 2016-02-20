@@ -16,3 +16,12 @@
 [submodule "htdocs/src/Grossum/NewsBundle"]
 	path = htdocs/src/Grossum/NewsBundle
 	url = https://github.com/GrossumUA/NewsBundle.git
+[submodule "htdocs/src/Sonata/EasyExtendsBundle"]
+	path = htdocs/src/Sonata/EasyExtendsBundle
+	url = https://github.com/GrossumUA/SonataEasyExtendsBundle.git
+[submodule "htdocs/src/Grossum/StaticPageBundle"]
+	path = htdocs/src/Grossum/StaticPageBundle
+	url = https://github.com/GrossumUA/StaticPageBundle.git
+[submodule "htdocs/src/Grossum/FaqBundle"]
+	path = htdocs/src/Grossum/FaqBundle
+	url = https://github.com/GrossumUA/FaqBundle.git

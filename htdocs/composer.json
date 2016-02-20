@@ -26,7 +26,10 @@
         "fzaninotto/faker": "~1.5",
         "ircmaxell/password-compat": "~1.0.3",
         "sonata-project/media-bundle": "2.3.*",
-        "jms/serializer": "0.16.0"
+        "jms/serializer": "0.16.0",
+        "egeloen/ckeditor-bundle": "^4.0",
+        "gedmo/doctrine-extensions": "^2.4",
+        "stof/doctrine-extensions-bundle": "^1.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.5",

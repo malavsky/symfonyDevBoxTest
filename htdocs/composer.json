@@ -1,5 +1,5 @@
 {
-    "name": "dev box",
+    "name": "grossum/devbox",
     "license": "MIT",
     "type": "project",
     "description": "The dev box",
@@ -7,6 +7,7 @@
         "psr-4": { "": "src/" },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.8.*",
@@ -22,6 +23,7 @@
         "friendsofsymfony/user-bundle": "1.3.*",
         "sonata-project/admin-bundle": "2.3.*",
         "sonata-project/doctrine-orm-admin-bundle": "2.3.*",
+	"sonata-project/easy-extends-bundle": "dev-extend_repository as 2.1",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
         "fzaninotto/faker": "~1.5",
         "ircmaxell/password-compat": "~1.0.3",
@@ -55,6 +57,12 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/GrossumUA/SonataEasyExtendsBundle"
+        }
+    ],
     "config": {
         "bin-dir": "bin"
     },

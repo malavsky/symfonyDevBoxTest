@@ -26,20 +26,12 @@ class AppKernel extends Kernel
             new Sonata\AdminBundle\SonataAdminBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
 
             new Application\UserBundle\ApplicationUserBundle(),
             new Application\Sonata\AdminBundle\ApplicationSonataAdminBundle(),
             new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
 
-            new Grossum\ContactBundle\GrossumContactBundle(),
-            new Grossum\CoreBundle\GrossumCoreBundle(),
-            new Grossum\CustomEntityManagerBundle\GrossumCustomEntityManagerBundle(),
-            new Grossum\ExtendedFormTypeBundle\GrossumExtendedFormTypeBundle(),
-            new Grossum\FaqBundle\GrossumFaqBundle(),
-            new Grossum\FeedbackBundle\GrossumFeedbackBundle(),
-            new Grossum\NewsBundle\GrossumNewsBundle(),
-            new Grossum\StaticPageBundle\GrossumStaticPageBundle(),
-            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

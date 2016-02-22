@@ -1,0 +1,24 @@
+[submodule "htdocs/src/Grossum/ContactBundle"]
+	path = htdocs/src/Grossum/ContactBundle
+	url = https://github.com/GrossumUA/ContactBundle.git
+[submodule "htdocs/src/Grossum/CoreBundle"]
+	path = htdocs/src/Grossum/CoreBundle
+	url = https://github.com/GrossumUA/CoreBundle.git
+[submodule "htdocs/src/Grossum/CustomEntityManagerBundle"]
+	path = htdocs/src/Grossum/CustomEntityManagerBundle
+	url = https://github.com/GrossumUA/CustomEntityManagerBundle.git
+[submodule "htdocs/src/Grossum/ExtendedFormTypeBundle"]
+	path = htdocs/src/Grossum/ExtendedFormTypeBundle
+	url = https://github.com/GrossumUA/ExtendedFormTypeBundle.git
+[submodule "htdocs/src/Grossum/FeedbackBundle"]
+	path = htdocs/src/Grossum/FeedbackBundle
+	url = https://github.com/GrossumUA/FeedbackBundle.git
+[submodule "htdocs/src/Grossum/NewsBundle"]
+	path = htdocs/src/Grossum/NewsBundle
+	url = https://github.com/GrossumUA/NewsBundle.git
+[submodule "htdocs/src/Grossum/StaticPageBundle"]
+	path = htdocs/src/Grossum/StaticPageBundle
+	url = https://github.com/GrossumUA/StaticPageBundle.git
+[submodule "htdocs/src/Grossum/FaqBundle"]
+	path = htdocs/src/Grossum/FaqBundle
+	url = https://github.com/GrossumUA/FaqBundle.git

@@ -3,14 +3,14 @@ vm:
     cpus: 2
     ioapic: "on"
     box: ubuntu/trusty64
-    host_name: symfonytest.dev
+    host_name: symfonydevbox.dev
     synced_folder_from: htdocs
-    synced_folder_to: /var/www/symfony_test
+    synced_folder_to: /var/www/devbox
     synced_folder_type: nfs
-    network_ip: 192.168.50.10
+    network_ip: 192.168.50.3
 database:
     root_password: rootpwd
-    db_name: symfony_test
+    db_name: devbox
 xdebug:
     remote_host: 192.168.50.1
     idekey: XDEBUGIDEKEY

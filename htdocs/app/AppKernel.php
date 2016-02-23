@@ -27,11 +27,14 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+            new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
 
             new Application\UserBundle\ApplicationUserBundle(),
             new Application\Sonata\AdminBundle\ApplicationSonataAdminBundle(),
             new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
-
+            new Grossum\ContactBundle\GrossumContactBundle(),
+            new Application\Grossum\ContactBundle\ApplicationGrossumContactBundle(),
+            new Grossum\CoreBundle\GrossumCoreBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

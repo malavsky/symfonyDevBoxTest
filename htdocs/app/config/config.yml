@@ -64,6 +64,8 @@ doctrine:
             ApplicationUserBundle: ~
             ApplicationSonataMediaBundle: ~
             SonataMediaBundle: ~
+            GrossumContactBundle: ~
+            ApplicationGrossumContactBundle: ~
 
 # Swiftmailer Configuration
 swiftmailer:

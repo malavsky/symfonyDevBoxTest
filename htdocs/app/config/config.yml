@@ -66,6 +66,14 @@ doctrine:
             SonataMediaBundle: ~
             GrossumContactBundle: ~
             ApplicationGrossumContactBundle: ~
+            GrossumMenuBundle: ~
+            ApplicationGrossumMenuBundle: ~
+
+stof_doctrine_extensions:
+    default_locale: %locale%
+    orm:
+        default:
+            timestampable: true
 
 # Swiftmailer Configuration
 swiftmailer:

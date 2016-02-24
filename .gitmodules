@@ -22,3 +22,6 @@
 [submodule "htdocs/src/Grossum/FaqBundle"]
 	path = htdocs/src/Grossum/FaqBundle
 	url = https://github.com/GrossumUA/FaqBundle.git
+[submodule "htdocs/src/Grossum/MenuBundle"]
+	path = htdocs/src/Grossum/MenuBundle
+	url = https://github.com/GrossumUA/MenuBundle.git

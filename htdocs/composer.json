@@ -29,6 +29,7 @@
         "sonata-project/media-bundle": "2.3.*",
         "jms/serializer": "0.16.0",
         "egeloen/ckeditor-bundle": "^4.0",
+        "tilleuls/ckeditor-sonata-media-bundle": "^1.0",
         "gedmo/doctrine-extensions": "^2.4",
         "stof/doctrine-extensions-bundle": "^1.2"
     },
